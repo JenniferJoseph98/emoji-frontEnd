@@ -20,7 +20,8 @@ function Slide() {
       .catch((e) => console.log(e));
     let filteredData = tempData.filter(
       (data) =>
-        data.unicodeName.includes(search) || data.subGroup.includes(search)
+        data.unicodeName.includes(search.toLowerCase()) ||
+        data.subGroup.includes(search.toLowerCase())
     );
     setSearchDetails(filteredData);
     setSearchFlag(true);
