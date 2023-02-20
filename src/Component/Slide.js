@@ -54,10 +54,7 @@ function Slide() {
         />
         <div
           className="input-group-append"
-          style={{
-            background:
-              "linear-gradient(to top, #b6c3cf 0%, #ed8697 0%, #c9ffbf 100%)",
-          }}
+          
         >
           <span
             onClick={() => searchData()}
