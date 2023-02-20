@@ -52,7 +52,13 @@ function Slide() {
           aria-label="Recipient's username"
           aria-describedby="basic-addon2"
         />
-        <div className="input-group-append">
+        <div
+          className="input-group-append"
+          style={{
+            background:
+              "linear-gradient(to top, #b6c3cf 0%, #ed8697 0%, #c9ffbf 100%)",
+          }}
+        >
           <span
             onClick={() => searchData()}
             className="input-group-text"
