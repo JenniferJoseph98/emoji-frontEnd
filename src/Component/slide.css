@@ -1,0 +1,43 @@
+.whole-emoji{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.no-result{
+    margin-top: 25px;
+    color: whitesmoke;
+}
+.each:hover {
+
+    background: linear-gradient(to top, #b6c3cf 0%, #ed8697 0%, #c9ffbf 100%);
+}
+.each:hover span{
+-ms-transform: scale(1.8);
+    /* IE 9 */
+    -webkit-transform: scale(1.8);
+    /* Safari 3-8 */
+    transform: scale(1.8);
+   
+}
+.each{
+    margin: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 135px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    border-radius: 10px;
+}
+.pagination-button{
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
